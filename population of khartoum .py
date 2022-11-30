@@ -396,3 +396,5 @@ json_layer = GeoJSON(data=json_data, name="Sudan state",hover_style={'fillColor'
 Map.add_layer(json_layer)
 
 json_layer.on_click(update_html1)
+
+Map
